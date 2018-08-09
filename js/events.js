@@ -10,6 +10,12 @@ function frameIt() {
   });
 }
 
+function pressIt() {
+  $('input:first').on('keydown', function() {
+    if (key.which == parseInt('g')) alert('g was pressed');
+  });
+}
+
 
 $(document).ready(function(){
 
