@@ -12,7 +12,7 @@ function frameIt() {
 
 function pressIt() {
   $('input:first').on('keydown', function() {
-    if (key.which == parseInt('g')) alert('g was pressed');
+    if (let key.which == parseInt('g')) alert('g was pressed');
   });
 }
 
