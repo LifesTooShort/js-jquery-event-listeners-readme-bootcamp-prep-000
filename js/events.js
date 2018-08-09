@@ -11,8 +11,8 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('input:first').on('keydown', function() {
-    if (let key.which == 103) alert('g was pressed');
+  $('input:first').on('keydown', function(key) {
+    if (key.which == 103) alert('g was pressed');
   });
 }
 
